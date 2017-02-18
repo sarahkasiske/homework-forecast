@@ -1,0 +1,165 @@
+body {
+  /*background-color:#343740;*/
+  background-color:#232323;
+  padding: 0; margin: 0;
+  font-family: 'Questrial', sans-serif;
+  max-width: 970px;
+  }
+
+h1 {
+  font-weight: bold;
+  font-size: 3.1em;
+  color: #96E1FF;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#submit{
+  padding-top: 13px;
+  width: 100%
+  height: 5px;
+}
+
+#submit button {
+  float: right;
+}
+
+#newsearch button, #submit button {
+  background: #96E1FF;
+  border-radius: 0;
+  border: none;
+  padding: 6px 20px;
+  color: #232323;
+  text-align: center;
+}
+
+#newsearch button:hover, #submit button:hover {
+  background: #E2F7FF;
+  border-radius: 0;
+  border: none;
+  color: #232323;
+  text-align: center;
+}
+
+#input input, select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    color: grey;
+    background: transparent;
+    font-weight: 400;
+    padding: 6px 7px;
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: 0;
+}
+
+#input input, select, #form {
+  min-width: 250px;
+}
+
+ #form {
+      padding-top: 20px;
+      width: 90%;
+      display: block;
+      margin: auto;
+    }
+
+#do {
+  font-weight: bold;
+  font-size: 2em;
+  color: #96E1FF;
+  padding-top: 50px;
+
+}
+
+#submit, #form  {
+  margin: auto;
+  max-width: 450px;
+  min-width: 280px;
+}
+
+#do, #newsearch {
+  max-width: 400px;
+  min-width: 250px;
+  margin: auto;
+}
+
+#do, #canvas, #newsearch  {
+    text-align: center;
+    min-width: 250px;
+
+}
+
+.spacing{
+  color: white;
+  padding-bottom: 6px;
+  padding-top: 18px;
+  font-size: 14px;
+
+}
+
+.sub-title {
+  padding-top: none;
+  padding-bottom: 8px;
+  color: #E2F7FF;
+  font-size: 2em;
+  margin: 0px;
+  text-align: center;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 500px){
+#canvas {
+    transform: scale(0.65,0.65);
+    margin-right: 70px;
+}
+  h1 {
+    font-size: 1.98em;
+  }
+
+  .sub-title {
+    font-size: 1.28em;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  h1 {
+    font-size: 1.98em;
+  }
+
+#canvas {
+    transform: scale(0.65,0.65);
+    margin-right: 150px;
+}
+
+.sub-title {
+  font-size: 1.28em;
+}
+
+}
+
+
+@media only screen and (max-width: 340px){
+  h1 {
+    font-size: 1.98em;
+  }
+
+  canvas {
+      margin-right: 650px;
+    }
+
+  #canvas {
+    transform: scale(0.5,0.5);
+    margin-right: 550px;
+    min-width: 200px;
+  }
+
+
+.sub-title {
+  font-size: 1.28em;
+}
+
+}
